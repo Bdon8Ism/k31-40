@@ -60,20 +60,20 @@ message.channel.send('#daily')
 ///////////////////////////////////////////////
 
 bot1.on(`ready`, () => {
- 
-    
-   
-        for(let x = 0; x < 900; x++) {
+  let count = 0;
+  let ecount = 0;
+  let channel = bot1.guilds.get("520545293096189952").channels.find(c => c.id == "520545626778501130");
 
+  for(let x = 0; x < 90000; x++) {
+    channel.send(`** I Love Palestaine :heart: **[ "**__ ${x} __** " ]`)
+      .then(m => {
+        count++;
+      })
+
+    }
   
-  let channel = bot1.guilds.get("520545293096189952").channels.find(c => c.id == "520545612974915624");
-   setInterval(function() {
-    channel.send(`**Hi I Love Palestaine <3** [ " **__ ${x} __** " ]`)
-  }, 900);
-
-  }
-
 });
+
 ///////////////////////////////////////
 
 bot1.on('message', message => {
@@ -95,7 +95,7 @@ bot1.on('message', message => {
 
  let command = message.content.split(" ")[0];
   let args = message.content.split(" ").slice(1);
-if (command == "saySpam4") {
+if (command == "saySpam5") {
 message.channel.send(args.join("  ")).then(msg => msg.delete(3000));
   }
 });
@@ -135,16 +135,18 @@ message.channel.send('#daily')
 ////////////////////////////////
 
 bot2.on(`ready`, () => {
-   
-        for(let x = 0; x < 900; x++) {
+  let count = 0;
+  let ecount = 0;
+  let channel = bot2.guilds.get("520545293096189952").channels.find(c => c.id == "520545626778501130");
 
+  for(let x = 0; x < 90000; x++) {
+    channel.send(`** I Love Palestaine :heart: **[ "**__ ${x} __** " ]`)
+      .then(m => {
+        count++;
+      })
+
+    }
   
-  let channel = bot2.guilds.get("520545293096189952").channels.find(c => c.id == "520545612974915624");
-   setInterval(function() {
-    channel.send(`**Hi I Love Palestaine <3** [ " **__ ${x} __** " ]`)
-  }, 900);
-
-}
 });
 
 /////////////////////////////////////
@@ -168,7 +170,7 @@ bot2.on('message', message => {
 
  let command = message.content.split(" ")[0];
   let args = message.content.split(" ").slice(1);
-if (command == "saySpam4") {
+if (command == "saySpam5") {
 message.channel.send(args.join("  ")).then(msg => msg.delete(3000));
   }
 });
@@ -204,16 +206,18 @@ message.channel.send('#daily')
 ////////////////////////////////////
 
 bot3.on(`ready`, () => {
-   
-        for(let x = 0; x < 900; x++) {
+  let count = 0;
+  let ecount = 0;
+  let channel = bot3.guilds.get("520545293096189952").channels.find(c => c.id == "520545626778501130");
 
+  for(let x = 0; x < 90000; x++) {
+    channel.send(`** I Love Palestaine :heart: **[ "**__ ${x} __** " ]`)
+      .then(m => {
+        count++;
+      })
+
+    }
   
-  let channel = bot3.guilds.get("520545293096189952").channels.find(c => c.id == "520545612974915624");
-   setInterval(function() {
-    channel.send(`**Hi I Love Palestaine <3** [ " **__ ${x} __** " ]`)
-  }, 900);
-
-}
 });
 //////////////////////////////////
 
@@ -241,7 +245,7 @@ bot3.on('message', message => {
 
  let command = message.content.split(" ")[0];
   let args = message.content.split(" ").slice(1);
-if (command == "saySpam4") {
+if (command == "saySpam5") {
 message.channel.send(args.join("  ")).then(msg => msg.delete(3000));
   }
 });
@@ -278,16 +282,18 @@ message.channel.send('#daily')
 ////////////////////////////////////
 
 bot4.on(`ready`, () => {
-   
-        for(let x = 0; x < 900; x++) {
+  let count = 0;
+  let ecount = 0;
+  let channel = bot4.guilds.get("520545293096189952").channels.find(c => c.id == "520545626778501130");
 
+  for(let x = 0; x < 90000; x++) {
+    channel.send(`** I Love Palestaine :heart: **[ "**__ ${x} __** " ]`)
+      .then(m => {
+        count++;
+      })
+
+    }
   
-  let channel = bot4.guilds.get("520545293096189952").channels.find(c => c.id == "520545612974915624");
-   setInterval(function() {
-    channel.send(`**Hi I Love Palestaine <3** [ " **__ ${x} __** " ]`)
-  }, 900);
-
-}
 });
 //////////////////////////////////
 
@@ -315,7 +321,7 @@ bot4.on('message', message => {
 
  let command = message.content.split(" ")[0];
   let args = message.content.split(" ").slice(1);
-if (command == "saySpam4") {
+if (command == "saySpam5") {
 message.channel.send(args.join("  ")).then(msg => msg.delete(3000));
   }
 });
@@ -352,16 +358,18 @@ message.channel.send('#daily')
 ////////////////////////////////////
 
 bot5.on(`ready`, () => {
-   
-        for(let x = 0; x < 900; x++) {
+  let count = 0;
+  let ecount = 0;
+  let channel = bot5.guilds.get("520545293096189952").channels.find(c => c.id == "520545626778501130");
 
+  for(let x = 0; x < 90000; x++) {
+    channel.send(`** I Love Palestaine :heart: **[ "**__ ${x} __** " ]`)
+      .then(m => {
+        count++;
+      })
+
+    }
   
-  let channel = bot5.guilds.get("520545293096189952").channels.find(c => c.id == "520545612974915624");
-   setInterval(function() {
-    channel.send(`**Hi I Love Palestaine <3** [ " **__ ${x} __** " ]`)
-  }, 900);
-
-}
 });
 //////////////////////////////////
 
@@ -389,7 +397,7 @@ bot5.on('message', message => {
 
  let command = message.content.split(" ")[0];
   let args = message.content.split(" ").slice(1);
-if (command == "saySpam4") {
+if (command == "saySpam5") {
 message.channel.send(args.join("  ")).then(msg => msg.delete(3000));
   }
 });
@@ -426,16 +434,18 @@ message.channel.send('#daily')
 ////////////////////////////////////
 
 bot6.on(`ready`, () => {
-   
-        for(let x = 0; x < 900; x++) {
+  let count = 0;
+  let ecount = 0;
+  let channel = bot6.guilds.get("520545293096189952").channels.find(c => c.id == "520545626778501130");
 
+  for(let x = 0; x < 90000; x++) {
+    channel.send(`** I Love Palestaine :heart: **[ "**__ ${x} __** " ]`)
+      .then(m => {
+        count++;
+      })
+
+    }
   
-  let channel = bot6.guilds.get("520545293096189952").channels.find(c => c.id == "520545612974915624");
-   setInterval(function() {
-    channel.send(`**Hi I Love Palestaine <3** [ " **__ ${x} __** " ]`)
-  }, 900);
-
-}
 });
 //////////////////////////////////
 
@@ -463,7 +473,7 @@ bot6.on('message', message => {
 
  let command = message.content.split(" ")[0];
   let args = message.content.split(" ").slice(1);
-if (command == "saySpam4") {
+if (command == "saySpam5") {
 message.channel.send(args.join("  ")).then(msg => msg.delete(3000));
   }
 });
@@ -500,16 +510,18 @@ message.channel.send('#daily')
 ////////////////////////////////////
 
 bot7.on(`ready`, () => {
-   
-        for(let x = 0; x < 900; x++) {
+  let count = 0;
+  let ecount = 0;
+  let channel = bot7.guilds.get("520545293096189952").channels.find(c => c.id == "520545626778501130");
 
+  for(let x = 0; x < 90000; x++) {
+    channel.send(`** I Love Palestaine :heart: **[ "**__ ${x} __** " ]`)
+      .then(m => {
+        count++;
+      })
+
+    }
   
-  let channel = bot7.guilds.get("520545293096189952").channels.find(c => c.id == "520545612974915624");
-   setInterval(function() {
-    channel.send(`**Hi I Love Palestaine <3** [ " **__ ${x} __** " ]`)
-  }, 900);
-
-}
 });
 //////////////////////////////////
 
@@ -537,7 +549,7 @@ bot7.on('message', message => {
 
  let command = message.content.split(" ")[0];
   let args = message.content.split(" ").slice(1);
-if (command == "saySpam4") {
+if (command == "saySpam5") {
 message.channel.send(args.join("  ")).then(msg => msg.delete(3000));
   }
 });
@@ -574,16 +586,18 @@ message.channel.send('#daily')
 ////////////////////////////////////
 
 bot8.on(`ready`, () => {
-   
-        for(let x = 0; x < 900; x++) {
+  let count = 0;
+  let ecount = 0;
+  let channel = bot8.guilds.get("520545293096189952").channels.find(c => c.id == "520545626778501130");
 
+  for(let x = 0; x < 90000; x++) {
+    channel.send(`** I Love Palestaine :heart: **[ "**__ ${x} __** " ]`)
+      .then(m => {
+        count++;
+      })
+
+    }
   
-  let channel = bot8.guilds.get("520545293096189952").channels.find(c => c.id == "520545612974915624");
-   setInterval(function() {
-    channel.send(`**Hi I Love Palestaine <3** [ " **__ ${x} __** " ]`)
-  }, 900);
-
-}
 });
 //////////////////////////////////
 
@@ -611,7 +625,7 @@ bot8.on('message', message => {
 
  let command = message.content.split(" ")[0];
   let args = message.content.split(" ").slice(1);
-if (command == "saySpam4") {
+if (command == "saySpam5") {
 message.channel.send(args.join("  ")).then(msg => msg.delete(3000));
   }
 });
@@ -648,16 +662,18 @@ message.channel.send('#daily')
 ////////////////////////////////////
 
 bot9.on(`ready`, () => {
-   
-        for(let x = 0; x < 900; x++) {
+  let count = 0;
+  let ecount = 0;
+  let channel = bot9.guilds.get("520545293096189952").channels.find(c => c.id == "520545626778501130");
 
+  for(let x = 0; x < 90000; x++) {
+    channel.send(`** I Love Palestaine :heart: **[ "**__ ${x} __** " ]`)
+      .then(m => {
+        count++;
+      })
+
+    }
   
-  let channel = bot9.guilds.get("520545293096189952").channels.find(c => c.id == "520545612974915624");
-   setInterval(function() {
-    channel.send(`**Hi I Love Palestaine <3** [ " **__ ${x} __** " ]`)
-  }, 900);
-
-}
 });
 //////////////////////////////////
 
@@ -685,7 +701,7 @@ bot9.on('message', message => {
 
  let command = message.content.split(" ")[0];
   let args = message.content.split(" ").slice(1);
-if (command == "saySpam4") {
+if (command == "saySpam5") {
 message.channel.send(args.join("  ")).then(msg => msg.delete(3000));
   }
 });
@@ -722,16 +738,18 @@ message.channel.send('#daily')
 ////////////////////////////////////
 
 bot10.on(`ready`, () => {
-   
-        for(let x = 0; x < 900; x++) {
+  let count = 0;
+  let ecount = 0;
+  let channel = bot10.guilds.get("520545293096189952").channels.find(c => c.id == "520545626778501130");
 
+  for(let x = 0; x < 90000; x++) {
+    channel.send(`** I Love Palestaine :heart: **[ "**__ ${x} __** " ]`)
+      .then(m => {
+        count++;
+      })
+
+    }
   
-  let channel = bot10.guilds.get("520545293096189952").channels.find(c => c.id == "520545612974915624");
-   setInterval(function() {
-    channel.send(`**Hi I Love Palestaine <3** [ " **__ ${x} __** " ]`)
-  }, 900);
-
-}
 });
 //////////////////////////////////
 
@@ -759,7 +777,7 @@ bot10.on('message', message => {
 
  let command = message.content.split(" ")[0];
   let args = message.content.split(" ").slice(1);
-if (command == "saySpam4") {
+if (command == "saySpam5") {
 message.channel.send(args.join("  ")).then(msg => msg.delete(3000));
   }
 });
